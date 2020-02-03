@@ -1,0 +1,151 @@
+body {
+   background-image:url(https://img.freepik.com/free-photo/black-white-bamboo-surface-merge-background_7182-2053.jpg?size=626&ext=jpg);  
+  background-repeat: no-repeat; 
+  background-size: cover;
+    border-style: solid;
+  border-width: 10px;
+border-color: lightblue;
+border-radius: 24px;
+}
+.main{
+  width:90%;
+  height:80%;
+  
+}
+#img-caption{
+  
+  
+}
+#img2-caption{
+  margin-bottom: 60px;  
+}
+#title{
+    border: 10px solid pink;
+    background: white;
+  font-size: 50px;
+  font-family: Josefin Sans;
+  color: tomato;
+  padding: 7px;
+  border-radius: 64px;
+}
+.normal{
+    border: 2px;
+   margin-left: 10%; 
+    text-align: center;
+   color: grey;
+  font-family: russo one;
+}
+#img1-caption{
+visibility: hidden;
+}
+#img-div{
+ 
+    height: 400px;
+    width: 400px;
+    border: 8px ;  
+ border-color: grey;
+  margin-left: 25%;
+}
+#aryabhatta{
+  height:400px;
+  width:400px;
+  }
+.aryabhatta{
+  border-color: coral; 
+ padding: 10px;
+  outline: 5px Dashed blue;
+position: relative;
+  right: 180px;
+}
+
+
+.placevalue1{
+   padding-top: 20px;
+  text-align: center;
+  border-bottom-style: double;
+  color: tomato;  
+  margin-left: 30%;
+      border-style: solid;
+  border-width: 10px;
+border-color: lightblue;
+border-radius: 44px;
+font-size: 30px;}
+
+.placevalue{
+text-align: center;
+  border-bottom-style: double;
+  color: tomato;  
+  margin-left: 30%;
+  font-size: 40px;
+      border-style: solid;
+  border-width: 10px;
+border-color: lightblue;
+border-radius: 44px;
+}
+#img1-caption{
+  text-align: right;
+}
+.value{
+    color: hotpink;
+  font-family: karla;
+background-color: white;
+   padding: 10px;
+    border-style: solid;
+  border-width: 10px;
+border-color: pink;
+border-radius: 24px;}
+@media (max-width: 600px){
+  #aryabhatta{ height: 200px;
+    width: 200px;
+    border: 4px ;  
+ border-color: grey;
+    position: relative;
+    left:10px;
+ }
+  #image20{
+    width:1%;
+  position:relative;
+  left: 270px;
+  bottom: 430px;
+padding: 10px;
+  outline: 5px Dashed blue;
+  }
+  
+#image2{
+  height: 410px;
+  width: 360px;
+  position:relative;
+  left: 270px;
+  bottom: 430px;
+padding: 10px;
+  outline: 5px Dashed blue;
+}
+#image3{
+  padding: 10px;
+  outline: 5px Dashed hotpink;
+}
+  @media (max-width: 600px){
+    #image3{
+  padding: 10px;
+  outline: 5px Dashed hotpink;
+      position: relative;
+      height: 150px;
+      width: 350px;
+     }}
+  @media (min-width: 300px){
+    #image3{
+  padding: 10px;
+  outline: 5px Dashed hotpink;
+      position: relative;
+      height: 120px;
+      width: 170px;
+     }
+  #title{
+    border: 10px solid pink;
+    background: white;
+  font-size: 20px;
+  font-family: Josefin Sans;
+  color: tomato;
+  padding: 7px;
+  border-radius: 64px;
+}}
